@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎓 Simulador de Exámenes"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="48dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCrearPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="📝 Crear Tarjeta"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"
+        app:cornerRadius="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnModoRepaso"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="📚 Modo Repaso"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        app:cornerRadius="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnIrExamen"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="⏱️ Examen Aleatorio"
+        android:textSize="18sp"
+        android:backgroundTint="#FF9800"
+        app:cornerRadius="16dp"/>
+
+</LinearLayout>

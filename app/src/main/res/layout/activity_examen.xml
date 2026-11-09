@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="🔙 Salir"
+        android:backgroundTint="#B0BEC5"
+        android:textColor="#333333"
+        app:cornerRadius="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aquí aparecerá la pregunta..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="48dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnOpcion1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Opción 1"/>
+
+    <Button
+        android:id="@+id/btnOpcion2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Opción 2"/>
+
+    <Button
+        android:id="@+id/btnOpcion3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Opción 3"/>
+
+    <Button
+        android:id="@+id/btnOpcion4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Opción 4"/>
+
+</LinearLayout>
