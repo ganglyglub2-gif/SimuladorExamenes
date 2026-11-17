@@ -82,7 +82,7 @@ class RepasoActivity : AppCompatActivity() {
 
         estaVolteada = false
         tvTexto.text = listaRepaso[indiceActual].textoPregunta
-        tarjetaFlashcard.setBackgroundColor(Color.parseColor("#FFF9C4")) // Amarillito
+        tarjetaFlashcard.setBackgroundColor(Color.parseColor("#FFF9C4"))
         tvContador.text = "Tarjeta ${indiceActual + 1} de ${listaRepaso.size}"
     }
 }

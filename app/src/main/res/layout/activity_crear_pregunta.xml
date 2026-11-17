@@ -13,101 +13,104 @@
         android:padding="24dp">
 
 
-        <Button
-            android:id="@+id/btnVolver"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:text="🔙 Volver al Menú"
-            android:backgroundTint="#B0BEC5"
-            android:textColor="#333333"
-            app:cornerRadius="12dp"
-            android:layout_marginBottom="16dp"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
             android:text="📝 Crear Tarjeta"
-            android:textSize="28sp"
-            android:textStyle="bold"
             android:textColor="#2196F3"
-            android:layout_marginBottom="24dp"/>
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
         <!-- Campo de Pregunta -->
         <EditText
             android:id="@+id/etPregunta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="60dp"
-            android:hint="Escribe tu pregunta aquí..."
-            android:background="#FFFFFF"
-            android:padding="16dp"
             android:layout_marginBottom="24dp"
-            android:elevation="2dp"/>
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:hint="Escribe tu pregunta aquí..."
+            android:minHeight="60dp"
+            android:padding="16dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="✅ Respuesta Correcta"
-            android:textStyle="bold"
             android:textColor="#4CAF50"
-            android:layout_marginBottom="8dp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etCorrecta"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="La respuesta real"
-            android:background="#FFFFFF"
-            android:padding="12dp"
             android:layout_marginBottom="24dp"
-            android:elevation="2dp"/>
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:hint="La respuesta real"
+            android:padding="12dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="❌ Opciones Incorrectas (Distractores)"
-            android:textStyle="bold"
             android:textColor="#F44336"
-            android:layout_marginBottom="8dp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etDistractor1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="Distractor 1"
-            android:background="#FFFFFF"
-            android:padding="12dp"
             android:layout_marginBottom="12dp"
-            android:elevation="2dp"/>
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:hint="Distractor 1"
+            android:padding="12dp" />
 
         <EditText
             android:id="@+id/etDistractor2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="Distractor 2"
-            android:background="#FFFFFF"
-            android:padding="12dp"
             android:layout_marginBottom="12dp"
-            android:elevation="2dp"/>
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:hint="Distractor 2"
+            android:padding="12dp" />
 
         <EditText
             android:id="@+id/etDistractor3"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="Distractor 3"
-            android:background="#FFFFFF"
-            android:padding="12dp"
             android:layout_marginBottom="32dp"
-            android:elevation="2dp"/>
+            android:background="#FFFFFF"
+            android:elevation="2dp"
+            android:hint="Distractor 3"
+            android:padding="12dp" />
 
         <Button
             android:id="@+id/btnGuardar"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#2196F3"
+            android:scrollHorizontally="true"
             android:text="💾 Guardar Pregunta"
             android:textSize="18sp"
-            android:backgroundTint="#2196F3"
-            app:cornerRadius="16dp"/>
+            app:cornerRadius="16dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="124dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#B0BEC5"
+            android:text="🔙 Regresar"
+            android:textColor="#333333"
+            app:cornerRadius="12dp" />
 
     </LinearLayout>
 </ScrollView>

@@ -52,10 +52,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="#BBBADCF2"
+        android:shadowColor="#E91E63"
         android:text="👆 Toca la tarjeta para voltearla"
-        android:textSize="16sp"
-        android:textColor="#AAAAAA"
-        android:layout_marginBottom="24dp"/>
+        android:textColor="#050505"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnSiguienteTarjeta"
